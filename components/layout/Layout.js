@@ -6,7 +6,7 @@ import Head from "next/head";
 const Layout = ({ children, title, description, ogImage, url }) => {
   // website Url
   const pageUrl =
-    "https://nextjs-and-material-ui-template-with-header-and-footer.vercel.app/";
+    "https://site-gamelab.vercel.app";
   // when you share this page on facebook you'll see this image
   const ogImg = "https://i.imgur.com/1H2TK2B.png";
   return (
@@ -58,11 +58,14 @@ const Layout = ({ children, title, description, ogImage, url }) => {
         {`
           html,
           body {
+            background: black;
             background-color: black;
             overflow-x: hidden;
             padding: 0 !important;
           }
           #__next {
+            color: black;
+            background-color: black;
             min-height: 100vh;
             display: flex;
             flex-direction: column;

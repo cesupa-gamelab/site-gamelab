@@ -11,11 +11,11 @@ const theme = createMuiTheme({
       white: mainWhite,
       blue: blue,
     },
-    primary: {
-      main: mainWhite,
+        primary: {
+            main: mainWhite,
     },
-    secondary: {
-      main: mainBlack,
+        secondary: {
+            main: mainBlack,
     },
     info: {
       main: blue,
@@ -37,9 +37,9 @@ const theme = createMuiTheme({
         fontWeight: 500,
         color: mainWhite
     },
-    a: {
+    /*a: {
       color: mainBlack,
-    },
+    },*/
   },
 });
 
