@@ -8,7 +8,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
   const pageUrl =
     "https://site-gamelab.vercel.app";
   // when you share this page on facebook you'll see this image
-  const ogImg = "https://i.imgur.com/1H2TK2B.png";
+    const ogImg = "https://i.imgur.com/raVlmaU.png";
   return (
     <>
       <Head>
